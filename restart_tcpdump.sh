@@ -1,4 +1,7 @@
 #!/bin/bash
+# author monster
+# time 20160918
+# program: restart tcpdump ....
 
 psid=`ps aux | grep 'tcpdump ' | awk '{print $2}'`
 kill -9  $psid
